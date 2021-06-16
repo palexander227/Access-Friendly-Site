@@ -12,19 +12,21 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color:#ffffff;
+      
 }
 
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* .header h1 .seo {
     color: #d9dcd6;
-}
+} */
+/* Does this really need its own class? */    
 
-.header div {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* .header div ul {
     list-style-type: none;
-}
+} */
 
-.header div ul li {
+/* .header div ul */ li { 
     display: inline-block;
     margin-left: 25px;
 }
@@ -62,11 +64,13 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
 
 .content {
@@ -134,7 +138,16 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.sectionStyle {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -159,9 +172,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -171,14 +184,16 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+/* .search-engine-optimization  */
+
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -186,7 +201,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
@@ -195,6 +210,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* .footer h2 {
     font-size: 20px;
-}
+} */
