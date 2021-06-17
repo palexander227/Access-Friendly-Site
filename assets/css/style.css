@@ -1,3 +1,7 @@
+
+
+/* Lines 5 through 42 represent a consolidation of 'top matter' and 'header' styling with navigation specifications. The elements h1, li, and a are all now stand-alone 
+carriers of the style specifications for the header. */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,20 +16,14 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color:#ffffff;
-      
+    color:#ffffff;     
 }
 
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-/* .header h1 .seo {
-    color: #d9dcd6;
-} */
-/* Does this really need its own class? */    
-
+ 
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,11 +32,7 @@ nav {
     font-size: 20px;
 }
 
-/* .header div ul {
-    list-style-type: none;
-} */
-
-/* .header div ul */ li { 
+li { 
     display: inline-block;
     margin-left: 25px;
 }
@@ -48,9 +42,9 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* Lines 49 through 92 specify the styling for the "main" division of the page. I considered each part of the main body to be its own "section" of content
+and styling was consolidated to reflect that grouping of similarities. The class "sectionStyle" was added to cover the multiple redundancies in the former css. The
+elements h2 and p are given new specifications for this section. */
 
 .hero {
     height: 800px;
@@ -59,6 +53,30 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.sectionStyle {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -73,11 +91,9 @@ p {
     max-height: 200px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* Lines 97 through 122 represent the consolidation of the "benefits" styling. One sincle class 'benefit-sty' was defined
+to absorb the multiple redundancies of the former style specifications. These classes are used under the 'aside' semantic section title. */
+
 
 .benefits {
     margin-right: 20px;
@@ -95,30 +111,10 @@ p {
     color: #ffffff;
 }
 
-/* .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
 .benefit-sty h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-/* .benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
 
 .benefit-sty img {
     display: block;
@@ -126,82 +122,8 @@ p {
     max-width: 150px;
 }
 
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-.sectionStyle {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-/* .search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-
-/* .search-engine-optimization  */
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* .online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
+/* These are the stylings which accomplish the same function as the original style specifications for the footer. Now however, we adopt the use of the h4 header and redefine it 
+to have the required behavior h2 had when used in this section. */
 
 .footer {
     padding: 30px;
