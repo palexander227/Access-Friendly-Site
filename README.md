@@ -2,7 +2,7 @@
 
 ## Description 
 
-Using standard HTML elements like <div> and <span> allow for a considerable range of expression and robustness in their range of applicability. However, these tags
+Using standard HTML elements like "div" and "span" allow for a considerable range of expression and robustness in their range of applicability. However, these tags
 give no real meaning for the general containers they reference. Semantic HTML attempts to overcome this problem by allowing for names of elements which more explicitly
 reveal the nature of their content. This is especially useful for those use cases were limited accessibility requires that an automated reader use the source code to create
 an alternative to the standard visual representation of the content. 
@@ -11,7 +11,7 @@ The purpose of this exercise was to refactor the given website to feature "seman
 and code which was not operating correctly were to be fixed. The overall appearance of the web page was to remain the same. 
 
 
-)
+
 
 
 ## Installation
